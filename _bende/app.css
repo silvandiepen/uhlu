@@ -1,0 +1,41 @@
+body,html{ width: 100%; height: 100%; font-family: sans-serif; font-size: 16px; margin: 0; padding: 0; }
+
+section{ padding: 50px; }
+
+.row{ margin: auto; }
+.row .column{ margin: auto;
+	
+}
+.small-12{ width: 100%; }
+
+hr{ margin: 50px; background: rgba(0,0,0,.25);border:none; color: rgba(0,0,0,.25); height: 1px; display: block;   }
+
+section#add{ background: #77bdf3; color: white; }
+section#list{
+	
+}
+section#tags{ background: #c2e05b; }
+section#tags ul,section#tags li{ list-style-type: none; margin: 0; padding: 0; }
+section#tags ul{-webkit-column-count: 4; -moz-column-count: 4; column-count: 4; }
+section#tags ul li{ -webkit-column-break-inside: avoid; }
+section#tags ul li a{ display: block; padding: .25rem; color: #333; text-decoration: none; }
+
+
+.list ul,.list li{ margin:0; padding: 0; list-style-type: none; }
+.list li{ -webkit-column-break-inside: avoid; }
+.list ul{ -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; }
+.list ul li{ display: block;}
+.list ul li a{ display: block; color: #333; padding: .5rem; border-radius: 3px; margin-bottom: 3px; border: 1px solid rgba(0,0,0,.1); text-decoration: none; }
+
+.list ul li a:visited,.list ul li a:hover{ background: rgba(0,0,0,.05); }
+.list ul li a span.tags{ display: block; }
+.list ul li a span.tags span{ display: inline-block; font-size: .8rem; margin-right: 3px; color: rgba(0,0,0,.25); }
+
+.total{ text-align: center; }
+
+form{ text-align: center; font-size: 1rem; }
+form label{ width: 100px; display: inline-block; }
+form input{ border: none; padding: 10px; background: white; border-radius: 3px; width: 200px; font-size: 1rem;}
+form input[type="submit"]{ background: black; color: white; }
